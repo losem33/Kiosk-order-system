@@ -43,6 +43,10 @@ public class Cart {
         return items.isEmpty();
     }
 
+    public List<CartItem> getItems() {
+        return items;
+    }
+
     public void clear() {
         items.clear();
     }
